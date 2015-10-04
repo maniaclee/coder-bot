@@ -2,8 +2,165 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="273a0f68-f1f7-4178-aa89-e2360324bb21" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/dist/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/ajax/jsonp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/ajax/load.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/ajax/parseJSON.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/ajax/parseXML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/ajax/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/ajax/var/nonce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/ajax/var/rquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/ajax/xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/attributes/attr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/attributes/classes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/attributes/prop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/attributes/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/attributes/val.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/core/access.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/core/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/core/parseHTML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/core/ready.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/core/var/rsingleTag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/css/addGetHookIf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/css/curCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/css/defaultDisplay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/css/hiddenVisibleSelectors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/css/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/css/swap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/css/var/cssExpand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/css/var/getStyles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/css/var/isHidden.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/css/var/rmargin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/css/var/rnumnonpx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/data/Data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/data/accepts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/data/var/data_priv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/data/var/data_user.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/effects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/effects/Tween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/effects/animatedSelector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/event/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/event/alias.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/event/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/exports/amd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/exports/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/intro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/manipulation/_evalUrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/manipulation/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/manipulation/var/rcheckableType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/offset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/outro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/queue/delay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/selector-native.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/selector-sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/selector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/sizzle/dist/sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/sizzle/dist/sizzle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/sizzle/dist/sizzle.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/traversing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/traversing/findFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/traversing/var/rneedsContext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/var/arr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/var/class2type.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/var/concat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/var/hasOwn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/var/indexOf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/var/pnum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/var/push.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/var/rnotwhite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/var/slice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/var/strundefined.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/var/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/var/toString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/src/wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/build/fragments/amd-post.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/build/fragments/amd-pre.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/build/fragments/extern-post.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/build/fragments/extern-pre.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/build/fragments/source-references.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/build/knockout-raw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/bindingAttributeSyntax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/bindingProvider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/defaultBindings/attr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/defaultBindings/checked.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/defaultBindings/click.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/defaultBindings/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/defaultBindings/enableDisable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/defaultBindings/event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/defaultBindings/foreach.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/defaultBindings/hasfocus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/defaultBindings/html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/defaultBindings/ifIfnotWith.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/defaultBindings/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/defaultBindings/selectedOptions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/defaultBindings/style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/defaultBindings/submit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/defaultBindings/text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/defaultBindings/textInput.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/defaultBindings/uniqueName.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/defaultBindings/value.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/defaultBindings/visible.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/editDetection/arrayToDomNodeChildren.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/editDetection/compareArrays.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/expressionRewriting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/binding/selectExtensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/components/componentBinding.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/components/customElements.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/components/defaultLoader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/components/loaderRegistry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/google-closure-compiler-utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/memoization.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/namespace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/subscribables/dependencyDetection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/subscribables/dependentObservable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/subscribables/extenders.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/subscribables/mappingHelpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/subscribables/observable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/subscribables/observableArray.changeTracking.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/subscribables/observableArray.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/subscribables/subscribable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/templating/jquery.tmpl/jqueryTmplTemplateEngine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/templating/native/nativeTemplateEngine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/templating/templateEngine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/templating/templateRewriting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/templating/templateSources.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/templating/templating.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/utils.domData.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/utils.domManipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/utils.domNodeDisposal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/version.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/knockout/src/virtualElements.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/underscore/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/underscore/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/underscore/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/underscore/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/underscore/underscore-min.map" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/jquery.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="coder-bot.iws" />
@@ -31,16 +188,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="359" column="11" selection-start-line="359" selection-start-column="11" selection-end-line="359" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coder-bot-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
@@ -60,12 +207,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16304348">
+            <state vertical-scroll-proportion="0.0">
               <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/jquery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6195652">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,18 +235,6 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coder-bot-web/src/main/java/psyco/coderbot/web/WebMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -107,7 +254,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1178#1179#0" expanded="false" />
+                <element signature="e#1204#1205#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,7 +269,8 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#368#369#0" expanded="false" />
+                <element signature="e#416#417#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -129,7 +281,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#3227#3228#0" expanded="false" />
+                <element signature="e#3270#3271#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -395,6 +551,52 @@
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coder-bot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coder-bot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coder-bot-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -548,6 +750,7 @@
       <recent name="$PROJECT_DIR$/coder-bot-web/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery" />
       <recent name="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/yeti" />
       <recent name="$PROJECT_DIR$/coder-bot-web/src/main/resources/template" />
     </key>
@@ -1076,29 +1279,37 @@
       <workItem from="1443926079500" duration="794000" />
       <workItem from="1443926907657" duration="3939000" />
       <workItem from="1443931969868" duration="182000" />
-      <workItem from="1443932184905" duration="225000" />
+      <workItem from="1443932184905" duration="429000" />
     </task>
+    <task id="LOCAL-00001" summary="asdfas">
+      <created>1443932430211</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1443932430211</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5140000" />
+    <option name="totallyTimeSpent" value="5344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287483" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287483" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39889959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1109,7 +1320,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1124,6 +1334,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="asdfas" />
+    <option name="LAST_COMMIT_MESSAGE" value="asdfas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1196,7 +1410,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1178#1179#0" expanded="false" />
+            <element signature="e#1204#1205#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1205,7 +1423,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#368#369#0" expanded="false" />
+            <element signature="e#416#417#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1214,7 +1433,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3227#3228#0" expanded="false" />
+            <element signature="e#3270#3271#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1280,7 +1503,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1178#1179#0" expanded="false" />
+            <element signature="e#1204#1205#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1289,7 +1516,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#368#369#0" expanded="false" />
+            <element signature="e#416#417#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1298,7 +1526,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3227#3228#0" expanded="false" />
+            <element signature="e#3270#3271#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1389,7 +1621,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1178#1179#0" expanded="false" />
+            <element signature="e#1204#1205#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1398,7 +1634,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#368#369#0" expanded="false" />
+            <element signature="e#416#417#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1407,7 +1644,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3227#3228#0" expanded="false" />
+            <element signature="e#3270#3271#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1427,11 +1668,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38106236">
+          <caret line="1" column="1229" selection-start-line="1" selection-start-column="1229" selection-end-line="1" selection-end-column="1229" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16304348">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coder-bot-web/src/main/resources/static/lib/bower_components/jquery/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6195652">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
