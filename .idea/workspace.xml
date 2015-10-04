@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="273a0f68-f1f7-4178-aa89-e2360324bb21" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coder-bot-web/src/main/resources/templates/signup.html" />
+    <list default="true" id="273a0f68-f1f7-4178-aa89-e2360324bb21" name="Default" comment="sexy pink">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/templates/index-worthy.html" afterPath="$PROJECT_DIR$/coder-bot-web/src/main/resources/templates/index-worthy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/worthy/css/style.css" afterPath="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/worthy/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="coder-bot.iws" />
@@ -43,11 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index-worthy.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index-worthy.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coder-bot-web/src/main/resources/templates/index-worthy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26376146">
-              <caret line="104" column="73" selection-start-line="104" selection-start-column="73" selection-end-line="104" selection-end-column="73" />
+            <state vertical-scroll-proportion="-3.0416667">
+              <caret line="132" column="25" selection-start-line="132" selection-start-column="25" selection-end-line="132" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/coder-bot-web/src/main/resources/static/worthy/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.11085451">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -183,6 +193,7 @@
         <option value="$PROJECT_DIR$/coder-bot-web/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/coder-bot-web/src/main/resources/templates/signup.html" />
         <option value="$PROJECT_DIR$/coder-bot-web/src/main/resources/templates/index-worthy.html" />
+        <option value="$PROJECT_DIR$/coder-bot-web/src/main/resources/static/worthy/css/style.css" />
       </list>
     </option>
   </component>
@@ -937,7 +948,7 @@
       <workItem from="1443926907657" duration="3939000" />
       <workItem from="1443931969868" duration="182000" />
       <workItem from="1443932184905" duration="6301000" />
-      <workItem from="1443953231317" duration="15613000" />
+      <workItem from="1443953231317" duration="15971000" />
     </task>
     <task id="LOCAL-00001" summary="asdfas">
       <created>1443932430211</created>
@@ -999,11 +1010,17 @@
       <option name="project" value="LOCAL" />
       <updated>1443974816412</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="xifuer's sign up">
+      <created>1443976532128</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1443976532128</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26829000" />
+    <option name="totallyTimeSpent" value="27187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1021,8 +1038,8 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39889959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287483" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1055,7 +1072,9 @@
     <MESSAGE value="remove extra lib" />
     <MESSAGE value="鹏鹏就是帅！" />
     <MESSAGE value="xifuer's login" />
-    <option name="LAST_COMMIT_MESSAGE" value="xifuer's login" />
+    <MESSAGE value="xifuer's sign up" />
+    <MESSAGE value="sexy pink" />
+    <option name="LAST_COMMIT_MESSAGE" value="sexy pink" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1429,14 +1448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coder-bot-web/src/main/resources/static/worthy/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3326087">
-          <caret line="147" column="1" selection-start-line="147" selection-start-column="1" selection-end-line="147" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coder-bot-web/src/main/resources/static/worthy/plugins/isotope/isotope.pkgd.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35334873">
@@ -1520,8 +1531,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/coder-bot-web/src/main/resources/templates/index-worthy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26376146">
-          <caret line="104" column="73" selection-start-line="104" selection-start-column="73" selection-end-line="104" selection-end-column="73" />
+        <state vertical-scroll-proportion="-3.0416667">
+          <caret line="132" column="25" selection-start-line="132" selection-start-column="25" selection-end-line="132" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coder-bot-web/src/main/resources/static/worthy/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11085451">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding />
         </state>
       </provider>
