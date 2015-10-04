@@ -132,7 +132,9 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
                     <h1 class="text-center">Welcome to <span>CodeBot</span></h1>
-                    <p class="lead text-center">A code bot which can help you ignore the boring coding work.<br> Free you mind and start right now.</p>
+
+                    <p class="lead text-center">A code bot which can help you ignore the boring coding work.<br> Free you mind and start right now.
+                    </p>
                 </div>
             </div>
         </div>
@@ -369,6 +371,7 @@
                         <li><a href="#" data-filter=".web-design">Html</a></li>
                         <li><a href="#" data-filter=".app-development">Python</a></li>
                         <li><a href="#" data-filter=".site-building">Scala</a></li>
+                        <li><a href="#" data-filter=".Java">test</a></li>
                     </ul>
                 </div>
                 <!-- isotope filters end -->
@@ -725,6 +728,23 @@
                             </div>
                         </div>
                         <!-- Modal end -->
+                    </div>
+
+
+                    <!--test for knockout.js-->
+                    <div data-bind="foreach:koLanguages">
+                        <div class="col-sm-6 col-md-3 isotope-item  " data-bind="class:$data.type">
+                            <div class="image-box">
+                                <div class="overlay-container">
+                                    <img alt="" data-bind="attr:{src:$data['image-url']}">
+                                    <a class="overlay" data-toggle="modal" data-target="#project-9">
+                                        <i class="fa fa-search-plus"></i>
+                                        <span data-bind="text:$data.name"></span>
+                                    </a>
+                                </div>
+                                <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-9" data-bind="text:$data.name"></a>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="col-sm-6 col-md-3 isotope-item web-design">
@@ -1158,8 +1178,12 @@
 <!-- JavaScript files placed at the end of the document so the pages load faster
 ================================================== -->
 <!-- Jquery and Bootstap core js files -->
+
 <script type="text/javascript" src="../static/lib/bower_components/jquery/dist/jquery.js"></script>
 <script type="text/javascript" src="../static/lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="../static/lib/bower_components/underscore/underscore.js"></script>
+<script type="text/javascript" src="../static/lib/bower_components/knockout/dist/knockout.js"></script>
 
 <!-- Modernizr javascript -->
 <script type="text/javascript" src="../static/worthy/plugins/modernizr.js"></script>
@@ -1179,5 +1203,6 @@
 <!-- Custom Scripts -->
 <script type="text/javascript" src="../static/worthy/js/custom.js"></script>
 
+<script type="text/javascript" src="../static/js/index.js"></script>
 </body>
 </html>
