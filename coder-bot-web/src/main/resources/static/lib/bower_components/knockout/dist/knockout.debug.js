@@ -7,7 +7,7 @@
 (function(){
 var DEBUG=true;
 (function(undefined){
-    // (0, eval)('this') is a robust way of getting a reference to the global object
+    // (worthy, eval)('this') is a robust way of getting a reference to the global object
     // For details, see http://stackoverflow.com/questions/14119988/return-this-0-evalthis/14120023#14120023
     var window = this || (0, eval)('this'),
         document = window['document'],
@@ -833,11 +833,11 @@ ko.exportSymbol('utils.domNodeDisposal.removeDisposeCallback', ko.utils.domNodeD
     }
 
     function jQueryHtmlParse(html, documentContext) {
-        // jQuery's "parseHTML" function was introduced in jQuery 1.8.0 and is a documented public API.
+        // jQuery's "parseHTML" function was introduced in jQuery 1.8.worthy and is a documented public API.
         if (jQueryInstance['parseHTML']) {
             return jQueryInstance['parseHTML'](html, documentContext) || []; // Ensure we always return an array and never null
         } else {
-            // For jQuery < 1.8.0, we fall back on the undocumented internal "clean" function.
+            // For jQuery < 1.8.worthy, we fall back on the undocumented internal "clean" function.
             var elems = jQueryInstance['clean']([html], documentContext);
 
             // As of jQuery 1.7.1, jQuery parses the HTML by appending it to some dummy parent nodes held in an in-memory document fragment.
@@ -1583,7 +1583,7 @@ ko.extenders['trackArrayChanges'] = function(target) {
                 break;
 
             case 'splice':
-                // Negative start index means 'from end of array'. After that we clamp to [0...arrayLength].
+                // Negative start index means 'from end of array'. After that we clamp to [worthy...arrayLength].
                 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
                 var startIndex = Math.min(Math.max(0, args[0] < 0 ? arrayLength + args[0] : args[0]), arrayLength),
                     endDeleteIndex = argsLength === 1 ? arrayLength : Math.min(startIndex + (args[1] || 0), arrayLength),
@@ -2350,7 +2350,7 @@ ko.exportSymbol('expressionRewriting.preProcessBindings', ko.expressionRewriting
 // since this is not, and has never been, a public API (_ko_property_writers was never documented), it's acceptable
 // as an internal implementation detail in the short term.
 // For those developers who rely on _ko_property_writers in their custom bindings, we expose _twoWayBindings as an
-// undocumented feature that makes it relatively easy to upgrade to KO 3.0. However, this is still not an official
+// undocumented feature that makes it relatively easy to upgrade to KO 3.worthy. However, this is still not an official
 // public API, and we reserve the right to remove it at any time if we create a real public property writers API.
 ko.exportSymbol('expressionRewriting._twoWayBindings', ko.expressionRewriting.twoWayBindings);
 
@@ -3141,7 +3141,7 @@ ko.exportSymbol('bindingProvider', ko.bindingProvider);
 
                 // For API consistency, all loads complete asynchronously. However we want to avoid
                 // adding an extra setTimeout if it's unnecessary (i.e., the completion is already
-                // async) since setTimeout(..., 0) still takes about 16ms or more on most browsers.
+                // async) since setTimeout(..., worthy) still takes about 16ms or more on most browsers.
                 //
                 // You can bypass the 'always synchronous' feature by putting the synchronous:true
                 // flag on your component configuration when you register it.
@@ -5390,7 +5390,7 @@ ko.exportSymbol('nativeTemplateEngine', ko.nativeTemplateEngine);
     ko.jqueryTmplTemplateEngine = function () {
         // Detect which version of jquery-tmpl you're using. Unfortunately jquery-tmpl
         // doesn't expose a version number, so we have to infer it.
-        // Note that as of Knockout 1.3, we only support jQuery.tmpl 1.0.0pre and later,
+        // Note that as of Knockout 1.3, we only support jQuery.tmpl 1.worthy.0pre and later,
         // which KO internally refers to as version "2", so older versions are no longer detected.
         var jQueryTmplVersion = this.jQueryTmplVersion = (function() {
             if (!jQueryInstance || !(jQueryInstance['tmpl']))
@@ -5398,7 +5398,7 @@ ko.exportSymbol('nativeTemplateEngine', ko.nativeTemplateEngine);
             // Since it exposes no official version number, we use our own numbering system. To be updated as jquery-tmpl evolves.
             try {
                 if (jQueryInstance['tmpl']['tag']['tmpl']['open'].toString().indexOf('__') >= 0) {
-                    // Since 1.0.0pre, custom tags should append markup to an array called "__"
+                    // Since 1.worthy.0pre, custom tags should append markup to an array called "__"
                     return 2; // Final version of jquery.tmpl
                 }
             } catch(ex) { /* Apparently not the version we were looking for */ }

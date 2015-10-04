@@ -12,30 +12,35 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 @Configuration
 public class SpringMVCConfig extends WebMvcConfigurerAdapter {
 
-	@Override
-	public void addResourceHandlers(ResourceHandlerRegistry registry) {
-		addResource(registry,"css");
-		addResource(registry,"js");
-		addResource(registry,"img");
-		addResource(registry,"lib");
-
-	}
-	void addResource(ResourceHandlerRegistry registry ,String prefix){
-		registry.addResourceHandler("/static/@/**".replace("@",prefix)).addResourceLocations("classpath:static/@/".replace("@",prefix)).setCachePeriod(31556926);
-	}
-
-	@Override
-	public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
-		configurer.enable();
-	}
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        addResource(registry, "css");
+        addResource(registry, "js");
+        addResource(registry, "img");
+        addResource(registry, "lib");
 
 
-	@Bean
-	public CommonsMultipartResolver multipartResolver() {
-		CommonsMultipartResolver re = new CommonsMultipartResolver();
-		re.setMaxUploadSize(100000000);
-		return re;
-	}
+        addResource(registry, "worthy");
+
+    }
+
+    void addResource(ResourceHandlerRegistry registry, String prefix) {
+        registry.addResourceHandler("/static/@/**".replace("@", prefix)).addResourceLocations("classpath:static/@/".replace("@", prefix)).setCachePeriod(31556926);
+    }
+
+
+    @Override
+    public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+        configurer.enable();
+    }
+
+
+    @Bean
+    public CommonsMultipartResolver multipartResolver() {
+        CommonsMultipartResolver re = new CommonsMultipartResolver();
+        re.setMaxUploadSize(100000000);
+        return re;
+    }
 
 //	@Bean
 //	public ServletContextInitializer initializer() {

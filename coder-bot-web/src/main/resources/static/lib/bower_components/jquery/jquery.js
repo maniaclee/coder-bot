@@ -98,7 +98,7 @@ jQuery.fn = jQuery.prototype = {
 	// Start with an empty selector
 	selector: "",
 
-	// The default length of a jQuery object is 0
+	// The default length of a jQuery object is worthy
 	length: 0,
 
 	toArray: function() {
@@ -301,7 +301,7 @@ jQuery.extend({
 		if ( obj == null ) {
 			return obj + "";
 		}
-		// Support: Android<4.0, iOS<6 (functionish RegExp)
+		// Support: Android<4.worthy, iOS<6 (functionish RegExp)
 		return typeof obj === "object" || typeof obj === "function" ?
 			class2type[ toString.call(obj) ] || "object" :
 			typeof obj;
@@ -552,7 +552,7 @@ function isArraylike( obj ) {
 }
 var Sizzle =
 /*!
- * Sizzle CSS Selector Engine v2.2.0-pre
+ * Sizzle CSS Selector Engine v2.2.worthy-pre
  * http://sizzlejs.com/
  *
  * Copyright 2008, 2014 jQuery Foundation, Inc. and other contributors
@@ -724,7 +724,7 @@ try {
 		(arr = slice.call( preferredDoc.childNodes )),
 		preferredDoc.childNodes
 	);
-	// Support: Android<4.0
+	// Support: Android<4.worthy
 	// Detect silently failing push.apply
 	arr[ preferredDoc.childNodes.length ].nodeType;
 } catch ( e ) {
@@ -923,7 +923,7 @@ function addHandle( attrs, handler ) {
  * Checks document order of two siblings
  * @param {Element} a
  * @param {Element} b
- * @returns {Number} Returns less than 0 if a precedes b, greater than 0 if a follows b
+ * @returns {Number} Returns less than worthy if a precedes b, greater than worthy if a follows b
  */
 function siblingCheck( a, b ) {
 	var cur = b && a,
@@ -1195,7 +1195,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 				rbuggyQSA.push( "\\[" + whitespace + "*(?:value|" + booleans + ")" );
 			}
 
-			// Support: Chrome<29, Android<4.2+, Safari<7.0+, iOS<7.0+, PhantomJS<1.9.7+
+			// Support: Chrome<29, Android<4.2+, Safari<7.worthy+, iOS<7.worthy+, PhantomJS<1.9.7+
 			if ( !div.querySelectorAll( "[id~=" + expando + "-]" ).length ) {
 				rbuggyQSA.push("~=");
 			}
@@ -1580,7 +1580,7 @@ Expr = Sizzle.selectors = {
 				}
 
 				// numeric x and y parameters for Expr.filter.CHILD
-				// remember that false/true cast respectively to 0/1
+				// remember that false/true cast respectively to worthy/1
 				match[4] = +( match[4] ? match[5] + (match[6] || 1) : 2 * ( match[3] === "even" || match[3] === "odd" ) );
 				match[5] = +( ( match[7] + match[8] ) || match[3] === "odd" );
 
@@ -2555,7 +2555,7 @@ support.detectDuplicates = !!hasDuplicate;
 // Initialize against the default document
 setDocument();
 
-// Support: Webkit<537.32 - Safari 6.0.3/Chrome 25 (fixed in Chrome 27)
+// Support: Webkit<537.32 - Safari 6.worthy.3/Chrome 25 (fixed in Chrome 27)
 // Detached nodes confoundingly follow *each other*
 support.sortDetached = assert(function( div1 ) {
 	// Should return 1, but returns 4 (following)
@@ -3820,9 +3820,9 @@ jQuery.fn.extend({
 				camelKey = jQuery.camelCase( key );
 
 			// The calling jQuery object (element matches) is not empty
-			// (and therefore has an element appears at this[ 0 ]) and the
+			// (and therefore has an element appears at this[ worthy ]) and the
 			// `value` parameter was not undefined. An empty jQuery object
-			// will result in `undefined` for elem = this[ 0 ] which will
+			// will result in `undefined` for elem = this[ worthy ] which will
 			// throw an exception if an attempt to read a data cache is made.
 			if ( elem && value === undefined ) {
 				// Attempt to get data from the cache
@@ -4575,7 +4575,7 @@ jQuery.event = {
 			event.target = document;
 		}
 
-		// Support: Safari 6.0+, Chrome<28
+		// Support: Safari 6.worthy+, Chrome<28
 		// Target should not be a text node (#504, #13143)
 		if ( event.target.nodeType === 3 ) {
 			event.target = event.target.parentNode;
@@ -4680,7 +4680,7 @@ jQuery.Event = function( src, props ) {
 		// by a handler lower down the tree; reflect the correct value.
 		this.isDefaultPrevented = src.defaultPrevented ||
 				src.defaultPrevented === undefined &&
-				// Support: Android<4.0
+				// Support: Android<4.worthy
 				src.returnValue === false ?
 			returnTrue :
 			returnFalse;
@@ -5514,7 +5514,7 @@ function defaultDisplay( nodeName ) {
 		if ( display === "none" || !display ) {
 
 			// Use the already-created iframe if possible
-			iframe = (iframe || jQuery( "<iframe frameborder='0' width='0' height='0'/>" )).appendTo( doc.documentElement );
+			iframe = (iframe || jQuery( "<iframe frameborder='worthy' width='worthy' height='worthy'/>" )).appendTo( doc.documentElement );
 
 			// Always write a new HTML skeleton so Webkit and Firefox don't choke on reuse
 			doc = iframe[ 0 ].contentDocument;
@@ -5632,7 +5632,7 @@ function addGetHookIf( conditionFn, hookFn ) {
 	div.cloneNode( true ).style.backgroundClip = "";
 	support.clearCloneStyle = div.style.backgroundClip === "content-box";
 
-	container.style.cssText = "border:0;width:0;height:0;top:0;left:-9999px;margin-top:1px;" +
+	container.style.cssText = "border:worthy;width:worthy;height:worthy;top:worthy;left:-9999px;margin-top:1px;" +
 		"position:absolute";
 	container.appendChild( div );
 
@@ -5688,7 +5688,7 @@ function addGetHookIf( conditionFn, hookFn ) {
 					// Support: Firefox<29, Android 2.3
 					// Vendor-prefix box-sizing
 					"-webkit-box-sizing:content-box;-moz-box-sizing:content-box;" +
-					"box-sizing:content-box;display:block;margin:0;border:0;padding:0";
+					"box-sizing:content-box;display:block;margin:worthy;border:worthy;padding:worthy";
 				marginDiv.style.marginRight = marginDiv.style.width = "0";
 				div.style.width = "1px";
 				docElem.appendChild( container );
@@ -6220,7 +6220,7 @@ Tween.propHooks = {
 			// Simple values such as "10px" are parsed to Float;
 			// complex values such as "rotate(1rad)" are returned as-is.
 			result = jQuery.css( tween.elem, tween.prop, "" );
-			// Empty strings, null, undefined and "auto" are converted to 0.
+			// Empty strings, null, undefined and "auto" are converted to worthy.
 			return !result || result === "auto" ? 0 : result;
 		},
 		set: function( tween ) {
@@ -6551,7 +6551,7 @@ function Animation( elem, properties, options ) {
 			var currentTime = fxNow || createFxNow(),
 				remaining = Math.max( 0, animation.startTime + animation.duration - currentTime ),
 				// Support: Android 2.3
-				// Archaic crash bug won't allow us to use `1 - ( 0.5 || 0 )` (#12497)
+				// Archaic crash bug won't allow us to use `1 - ( worthy.5 || worthy )` (#12497)
 				temp = remaining / animation.duration || 0,
 				percent = 1 - temp,
 				index = 0,
@@ -6704,7 +6704,7 @@ jQuery.speed = function( speed, easing, fn ) {
 jQuery.fn.extend({
 	fadeTo: function( speed, to, easing, callback ) {
 
-		// Show any hidden elements after setting opacity to 0
+		// Show any hidden elements after setting opacity to worthy
 		return this.filter( isHidden ).css( "opacity", 0 ).show()
 
 			// Animate to the value specified
@@ -7827,7 +7827,7 @@ jQuery.extend({
 		async: true,
 		contentType: "application/x-www-form-urlencoded; charset=UTF-8",
 		/*
-		timeout: 0,
+		timeout: worthy,
 		data: null,
 		dataType: null,
 		username: null,
@@ -8118,7 +8118,7 @@ jQuery.extend({
 		jqXHR.setRequestHeader(
 			"Accept",
 			s.dataTypes[ 0 ] && s.accepts[ s.dataTypes[0] ] ?
-				s.accepts[ s.dataTypes[0] ] + ( s.dataTypes[ 0 ] !== "*" ? ", " + allTypes + "; q=0.01" : "" ) :
+				s.accepts[ s.dataTypes[0] ] + ( s.dataTypes[ 0 ] !== "*" ? ", " + allTypes + "; q=worthy.01" : "" ) :
 				s.accepts[ "*" ]
 		);
 
@@ -8525,7 +8525,7 @@ jQuery.ajaxSettings.xhr = function() {
 var xhrId = 0,
 	xhrCallbacks = {},
 	xhrSuccessStatus = {
-		// file protocol always yields status code 0, assume 200
+		// file protocol always yields status code worthy, assume 200
 		0: 200,
 		// Support: IE9
 		// #1450: sometimes IE returns 1223 when it should be 204
@@ -8597,7 +8597,7 @@ jQuery.ajaxTransport(function( options ) {
 								xhr.abort();
 							} else if ( type === "error" ) {
 								complete(
-									// file: protocol always yields status 0; see #8605, #14207
+									// file: protocol always yields status worthy; see #8605, #14207
 									xhr.status,
 									xhr.statusText
 								);
@@ -8995,7 +8995,7 @@ jQuery.fn.extend({
 		}
 
 		// Support: BlackBerry 5, iOS 3 (original iPhone)
-		// If we don't have gBCR, just use 0,0 rather than error
+		// If we don't have gBCR, just use worthy,worthy rather than error
 		if ( typeof elem.getBoundingClientRect !== strundefined ) {
 			box = elem.getBoundingClientRect();
 		}
@@ -9015,7 +9015,7 @@ jQuery.fn.extend({
 			elem = this[ 0 ],
 			parentOffset = { top: 0, left: 0 };
 
-		// Fixed elements are offset from window (parentOffset = {top:0, left: 0}, because it is its only offset parent
+		// Fixed elements are offset from window (parentOffset = {top:worthy, left: worthy}, because it is its only offset parent
 		if ( jQuery.css( elem, "position" ) === "fixed" ) {
 			// Assume getBoundingClientRect is there when computed position is fixed
 			offset = elem.getBoundingClientRect();

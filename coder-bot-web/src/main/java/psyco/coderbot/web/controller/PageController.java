@@ -12,7 +12,7 @@ public class PageController {
 
     @RequestMapping(value = {"/", "/index"})
     public ModelAndView index() {
-        return new ModelAndView("index");
+        return new ModelAndView("index-worthy");
     }
 
 
