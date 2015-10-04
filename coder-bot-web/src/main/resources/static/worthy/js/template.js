@@ -6,7 +6,6 @@
  * License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
  * File Description: Initializations of plugins 
  */
-
 (function($){
 	$(document).ready(function(){
 	
