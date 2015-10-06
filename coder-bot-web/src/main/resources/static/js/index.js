@@ -3,15 +3,6 @@
  */
 
 var psyco = {
-    util: {
-        json2array: function (json) {
-            var re = [];
-            _.each(json, function (obj, n) {
-                re.push({name: n, data: obj});
-            });
-            return re;
-        }
-    },
     languages: {
         Java: {
             bean: {
@@ -44,24 +35,6 @@ var psyco = {
             }
         },
     }
-    //,
-    //languages: [
-    //    {
-    //        name: 'java',
-    //        modules: [
-    //            {
-    //                'name': 'bean',
-    //                'image-url': '../static/worthy/images/portfolio-3.jpg',
-    //                'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.'
-    //            },
-    //            {
-    //                'name': 'mybatis',
-    //                'image-url': '../static/worthy/images/portfolio-6.jpg',
-    //                'description': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.'
-    //            }]
-    //    }
-    //]
-
 };
 
 $(document).ready(function () {
@@ -77,9 +50,9 @@ $(document).ready(function () {
             });
         });
     });
-    console.log(lan);
-    ko.applyBindings({
+    var psycoK0 = {
         koLanguages: ko.observable(lan)
-    });
+    };
+    ko.applyBindings(psycoK0);
 
 });
