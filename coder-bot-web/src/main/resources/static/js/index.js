@@ -78,5 +78,13 @@ $(document).ready(function () {
         koLanguages: ko.observable(lan)
     };
     ko.applyBindings(psycoK0);
+    $("#fileinput-Java-bean").fileinput({
+        //browseClass: "btn btn-primary btn-block",
+        showPreview: false,
+        showRemove:false,
+        showUpload:false,
+        //allowedFileExtensions: ["zip", "rar", "gz", "tgz"],
+        elErrorContainer: "#errorBlock"
+    });
 
 });
