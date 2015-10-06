@@ -389,7 +389,7 @@
                             <div class="image-box">
                                 <div class="overlay-container">
                                     <img alt="" data-bind="attr:{src:$data['image-url']}">
-                                    <a class="overlay" data-toggle="modal" data-target="#modal-Java-bean" >
+                                    <a class="overlay" data-toggle="modal" data-target="#modal-Java-bean"   data-bind="attr:{'data-target':'#modal-'+}" >
                                         <i class="fa fa-search-plus"></i>
                                         <span data-bind="text:$data.name"></span>
                                     </a>
