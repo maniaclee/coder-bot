@@ -81,8 +81,8 @@ $(document).ready(function () {
     $("#fileinput-Java-bean").fileinput({
         //browseClass: "btn btn-primary btn-block",
         showPreview: false,
-        showRemove:false,
-        showUpload:false,
+        showRemove: false,
+        showUpload: false,
         //allowedFileExtensions: ["zip", "rar", "gz", "tgz"],
         elErrorContainer: "#errorBlock"
     });
