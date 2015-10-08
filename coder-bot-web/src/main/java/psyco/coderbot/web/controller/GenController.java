@@ -11,12 +11,12 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.support.DefaultMultipartHttpServletRequest;
 import psyco.coder.ast.core.WebResponse;
 import psyco.coder.ast.gen.Builder;
-import psyco.coder.ast.util.ResponseExecutor;
+import psyco.coder.ast.util.ExceptionExecutor;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
-import static psyco.coder.ast.util.ResponseExecutor.check;
+import static psyco.coder.ast.util.ExceptionExecutor.check;
 
 
 /**
@@ -27,7 +27,7 @@ public class GenController {
 
     @RequestMapping(value = "builder", method = RequestMethod.POST)
     public WebResponse builder(@Param("code") String code, HttpServletRequest request) {
-        return ResponseExecutor.exec(() -> {
+        return ExceptionExecutor.exec(() -> {
             check(StringUtils.isBlank(code), "Empty input");
 
             if (!(request instanceof DefaultMultipartHttpServletRequest))
