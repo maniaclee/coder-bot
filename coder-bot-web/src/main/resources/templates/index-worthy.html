@@ -43,7 +43,7 @@
     <link href="../static/worthy/css/custom.css" rel="stylesheet">
 </head>
 
-<body class="no-trans">
+<body class="no-trans"  onload="prettyPrint()">
 <!-- scrollToTop -->
 <!-- ================ -->
 <div class="scrollToTop"><i class="icon-up-open-big"></i></div>
@@ -417,11 +417,16 @@
         <p class="lead text-center">Choose the language,see what's going on there.
         </p>
         <br>
-        <pre class="prettyprint linenums">
-            <code class="language-java">
-            public class Flow
 
-        </code></pre>
+        <?prettify lang=Java?>
+        <pre  style="width:500px;">
+public class A{
+ int a ;
+     public void setA(int a ){
+        this.a=a;
+     }
+ }
+        </pre>
 
 
         <div class="row object-non-visible" data-animation-effect="fadeIn">
