@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.support.DefaultMultipartHttpServletRequest;
 import psyco.coder.ast.core.WebResponse;
-import psyco.coder.ast.gen.Builder;
+import psyco.coder.gen.Builder;
 import psyco.coder.ast.util.ExceptionExecutor;
 
 import javax.servlet.http.HttpServletRequest;
