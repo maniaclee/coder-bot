@@ -77,6 +77,7 @@ $(document).ready(function () {
     var psycoK0 = {
         koLanguages: ko.observable(lan)
     };
+    psycoComponent.registComponent();
     ko.applyBindings(psycoK0);
     $("#fileinput-Java-bean").fileinput({
         //browseClass: "btn btn-primary btn-block",
