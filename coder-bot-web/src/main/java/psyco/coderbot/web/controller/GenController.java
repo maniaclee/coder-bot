@@ -10,13 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.support.DefaultMultipartHttpServletRequest;
 import psyco.coder.ast.core.WebResponse;
-import psyco.coder.gen.Builder;
-import psyco.coder.ast.util.ExceptionExecutor;
+import psyco.coder.gen.CoderBuilder;
+import psyco.coder.util.ExceptionExecutor;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
-import static psyco.coder.ast.util.ExceptionExecutor.check;
+import static psyco.coder.util.ExceptionExecutor.check;
 
 
 /**
@@ -31,7 +31,7 @@ public class GenController {
             check(StringUtils.isBlank(code), "Empty input");
 
             if (!(request instanceof DefaultMultipartHttpServletRequest))
-                return Builder.gen(code);
+                return CoderBuilder.builder(code,"");
 
             MultiValueMap<String, MultipartFile> map = ((DefaultMultipartHttpServletRequest) request).getMultiFileMap();
             check(map.isEmpty(), "");
