@@ -13,12 +13,21 @@
         <module>coder-bot-web</module>
     </modules>
     <properties>
-        <main.basedir>${basedir}/../..</main.basedir>
         <spring-boot.version>1.2.4.RELEASE</spring-boot.version>
         <hibernate.version>4.3.8.Final</hibernate.version>
         <org.springframework.version>4.1.5.RELEASE</org.springframework.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>psyco</groupId>
+            <artifactId>coder</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>psyco</groupId>
+            <artifactId>psyco.user.center.client</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
