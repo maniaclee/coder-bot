@@ -17,7 +17,7 @@ public class SpringMVCConfig extends WebMvcConfigurerAdapter {
         addResource(registry, "lib");
 
 
-//        addResource(registry, "worthy");
+        addResource(registry, "worthy");
     }
 
     void addResource(ResourceHandlerRegistry registry, String prefix) {
