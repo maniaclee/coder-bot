@@ -80,6 +80,19 @@
             <version>5.1.32</version>
         </dependency>
 
+
+        <!--to enable  normal html5 instead of thymleaf only-->
+        <dependency>
+            <groupId>net.sourceforge.nekohtml</groupId>
+            <artifactId>nekohtml</artifactId>
+            <version>1.9.21</version>
+        </dependency>
+        <dependency>
+            <groupId>xml-apis</groupId>
+            <artifactId>xml-apis</artifactId>
+            <version>1.4.01</version>
+        </dependency>
+
         <!--spring quartz-->
         <dependency>
             <groupId>org.quartz-scheduler</groupId>
@@ -124,12 +137,7 @@
             <version>0.2</version>
         </dependency>
 
-        <dependency>
-            <groupId>taglibs</groupId>
-            <artifactId>standard</artifactId>
-            <version>1.1.2</version>
-            <scope>runtime</scope>
-        </dependency>
+
 
         <dependency>
             <groupId>commons-dbcp</groupId>
@@ -175,17 +183,6 @@
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-rest-webmvc</artifactId>
             <version>2.3.0.RELEASE</version>
-        </dependency>
-        <!--to enable  normal html5 instead of thymleaf only-->
-        <dependency>
-            <groupId>net.sourceforge.nekohtml</groupId>
-            <artifactId>nekohtml</artifactId>
-            <version>1.9.21</version>
-        </dependency>
-        <dependency>
-            <groupId>xml-apis</groupId>
-            <artifactId>xml-apis</artifactId>
-            <version>1.4.01</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>

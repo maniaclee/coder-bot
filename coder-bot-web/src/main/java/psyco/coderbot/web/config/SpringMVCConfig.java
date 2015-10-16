@@ -3,10 +3,7 @@ package psyco.coderbot.web.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
-import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.web.servlet.config.annotation.*;
 
 @EnableWebMvc
 @Configuration
@@ -20,8 +17,7 @@ public class SpringMVCConfig extends WebMvcConfigurerAdapter {
         addResource(registry, "lib");
 
 
-        addResource(registry, "worthy");
-
+//        addResource(registry, "worthy");
     }
 
     void addResource(ResourceHandlerRegistry registry, String prefix) {
@@ -42,7 +38,42 @@ public class SpringMVCConfig extends WebMvcConfigurerAdapter {
         return re;
     }
 
-//	@Bean
+//    @Bean
+//    public TemplateResolver servletContextTemplateResolver() {
+//        ServletContextTemplateResolver re = new ServletContextTemplateResolver();
+////        re.setPrefix("/template");
+//        re.setSuffix(".html");
+//        re.setTemplateMode("HTML5");
+//        re.setCacheable(false);
+//        re.setCharacterEncoding("UTF-8");
+//        return re;
+//    }
+//
+//    @Bean
+//    public  SpringTemplateEngine  sdfsd(TemplateResolver templateResolver){
+//        SpringTemplateEngine re = new SpringTemplateEngine();
+//        re.setTemplateResolver(templateResolver);
+//        ThymeleafViewResolver  vr = new ThymeleafViewResolver();
+//        vr.setTemplateEngine(re);
+//        vr.setCharacterEncoding("UTF-8");
+//        vr.setOrder(0);
+//        return re;
+//    }
+//
+//    @Bean
+//    public InternalResourceViewResolver getInternalResourceViewResolver() {
+//        InternalResourceViewResolver resolver = new InternalResourceViewResolver();
+//        resolver.setViewClass(JstlView.class);
+//        resolver.setPrefix("/");
+//        resolver.setSuffix(".html");
+//        return resolver;
+//    }
+
+    @Override
+    public void configureViewResolvers(ViewResolverRegistry registry) {
+        super.configureViewResolvers(registry);
+    }
+    //	@Bean
 //	public ServletContextInitializer initializer() {
 //		return new PsycoServletContextInitializer();
 //	}
