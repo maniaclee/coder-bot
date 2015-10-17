@@ -9,7 +9,6 @@ import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfigurat
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import psyco.user.center.client.service.UserService;
 
 @Configuration
 @SpringBootApplication
@@ -19,8 +18,7 @@ public class WebMain {
 
     public static void main(String[] args) throws Exception {
         ConfigurableApplicationContext ctx = SpringApplication.run(WebMain.class, args);
-        UserService userService = ctx.getBean(UserService.class);
-        System.out.println(userService.echo("sdfs"));
+        System.out.println("coder-bot web server started ...");
     }
 
 }
